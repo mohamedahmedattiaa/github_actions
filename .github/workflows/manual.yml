@@ -14,4 +14,4 @@ jobs:
      runs-on: ubuntu-latest
      steps:
        - name : Deploy applocation
-         run: echo "Deployment the application ....."
+         run: echo "Deployment the application ${{inputs.envirnoment}}"
